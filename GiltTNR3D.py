@@ -6,7 +6,7 @@ import itertools as itt
 import logging
 from tntools.ncon_sparseeig import ncon_sparsesvd
 from ncon import ncon
-from scipy.sparse.linalg.eigen.arpack.arpack import (
+from scipy.sparse.linalg import (
     ArpackNoConvergence, ArpackError
 )
 

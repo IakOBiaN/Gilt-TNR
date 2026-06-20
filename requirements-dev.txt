@@ -1,0 +1,5 @@
+# Development / test dependencies (in addition to requirements.txt).
+# Note: abeliantensors currently requires numpy < 2.0 (it uses np.float_),
+# so pin numpy to the last 1.x release.
+numpy==1.26.4
+pytest>=7.0
